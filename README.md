@@ -1,8 +1,6 @@
 # Stringify
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/stringify`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Stringify will combine the multiple strings provided on a delimeter given. 
 
 ## Installation
 
@@ -22,7 +20,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+combine_with("-", "hello", "ruby", "world")
+It will join all strings with "-" like  "hello-ruby-world"
+
+You can use any delimeter
 
 ## Development
 
