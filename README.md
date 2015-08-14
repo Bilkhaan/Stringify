@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-combine_with("-", "hello", "ruby", "world")
+Stringify.combine_with("-", "hello", "ruby", "world")
 
 It will join all strings with "-" like  "hello-ruby-world"
 
