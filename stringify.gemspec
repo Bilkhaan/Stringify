@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["bilal.khan@square63.com"]
 
   spec.summary       = %q{This gem while join your multiple strings witrh a delimeter}
-  spec.description   = %q{You can combine your N strings on a delimeter by using method 'Combine_with("delimeter", "string1", "string2", ...... "string N")'}
+  spec.description   = %q{You can combine your N strings/arrays on a delimeter by using method 'Stringify.Combine_with(delimeter, <comma separated strings/arrays>)'. You can join any number of strings with strings or strings with arrays or arrays with arrays.}
   spec.homepage      = "https://github.com/Bilkhaan/Stringify"
   spec.license       = "MIT"
 
@@ -29,5 +29,4 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.10"
   spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency "rspec"
 end
