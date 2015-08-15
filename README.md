@@ -1,6 +1,6 @@
 # Stringify
 
-Stringify will combine the multiple strings provided on a delimeter given. 
+Stringify will combine the multiple (strings with strings) or (strings with arrays) or (arrays with arrays) provided on a delimeter given.
 
 ## Installation
 
@@ -23,6 +23,17 @@ Or install it yourself as:
 Stringify.combine_with("-", "hello", "ruby", "world")
 
 It will join all strings with "-" like  "hello-ruby-world"
+
+
+Stringify.combine_with("-", ["welcome", "to"], "ruby", "world")
+
+Result will be  =  "welcome-to-ruby-world"
+
+
+Stringify.combine_with("-", ["welcome", ["to"]], ["ruby"], "world")
+
+Result will be  =  "welcome-to-ruby-world"
+
 
 You can use any delimeter
 
